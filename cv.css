@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:#E4F9F5 ;
+    margin:0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile{
+    width: 110px;
+    height: 120px;
+    border:1px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.headerbio{
+    float:left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#11999e;
+}
+.contact{
+    float:right;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.contact a{
+    text-decoration: none;
+    color:teal;
+
+}
+.contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+
+}
+
+.divclear{
+    clear:both;
+}
+hr{
+    border:3px solid black;
+    width:100%;
+    margin:20px auto;
+    border-bottom: none;
+}
+
+#personalsection{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.leftdiv{
+    width: 30%;
+    float:left;
+}
+.rightdiv{
+    width:70%;
+    float:left;
+}
+.commonhr{
+    border:1px solid black;
+    border-bottom: none;
+    width:100%;
+    margin:20px auto;
+}
+
+.educationtempleft{
+    float:left;
+    width:45%;
+}
+.educationtempright{
+    float:right;
+    width:45%;
+}
+
+/*footer start*/
+.bottomcontainer{
+    background-color: #3C3C3C;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+
+.bottomcontainer a{
+    text-decoration: none;
+    color:white;
+    margin:20px;
+}
+
+.bottomcontainer p{
+    color:white;
+    margin-top:20px;
+}
+
+.degree{
+    color:black;
+}
+#education .rightdiv a{
+    text-decoration: none;
+    color:black;
+}
+
+#education .rightdiv a:hover{
+    color:tomato;
+}
+.company{
+    color:black;
+}
+
+.gpa{
+    font-weight: bold;
+}
+
+#references .rightdiv a{
+    text-decoration: none;
+    color:black;
+}
+
+#references .rightdiv a:hover{
+    color:tomato;
+}
+
+h5{
+    color:black;
+}
